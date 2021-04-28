@@ -1,8 +1,8 @@
-
+//Dalton Burge
 
 public class Deck {
 
-	String[]  theDeck;
+	String[] theDeck;
 
 	String[] Suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
 
@@ -14,7 +14,6 @@ public class Deck {
 	public Deck() {
 
 		// initialize deck
-
 		int n = Suits.length * Ranks.length;
 		theDeck = new String[n];
 		for (int i = 0; i < Ranks.length; i++) {
